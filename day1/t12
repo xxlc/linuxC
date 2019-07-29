@@ -1,0 +1,10 @@
+total 28K
+-rw-rw-r-- 1 chenlei chenlei   42 Jun 17 20:22 c.txt
+-rw-rw-r-- 1 chenlei chenlei 3.7K Jun 17 19:47 day1_陈雷.txt
+-rw-rw-r-- 1 chenlei chenlei   11 Jun 17 20:20 helloworld
+-rwxr-x--- 1 chenlei chenlei    1 Jun 17 20:23 main.c
+drwxrwxr-x 2 chenlei chenlei 4.0K Jun 17 19:36 newdir
+-rw-rw-r-- 1 chenlei chenlei    0 Jun 17 20:55 t12
+-rw-rw-r-- 1 chenlei chenlei   11 Jun 17 20:19 test
+-rw-rw-r-- 1 chenlei chenlei  445 Jun 17 20:55 ttt
+-rw-rw-r-- 1 chenlei chenlei    0 Jun 17 20:54 wc

@@ -1,0 +1,4 @@
+   PID TTY          TIME CMD
+  4637 tty1     00:00:00 gnome-session-b
+  4653 tty1     00:00:21 gnome-shell
+  4676 tty1     00:03:20 Xwayland

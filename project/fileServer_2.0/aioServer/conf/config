@@ -1,0 +1,3 @@
+192.168.5.163	2000	4				50
+IP				PORT	THREADNUM		TASKMAX
+#等号前后必须有空格

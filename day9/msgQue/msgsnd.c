@@ -1,0 +1,24 @@
+#include <sys/types.h>
+#include <sys/ipc.h>
+#include <sys/msg.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+struct MSG{
+	long mtype;
+	char mtext[128];
+};
+
+int main(int argc, char* argv[]){
+	int msqid = msgget(1000, IPC_CREAT|0600);
+	if( -1==msqid ){
+		perror("msgget");
+		return -1;
+	}
+	struct MSG buf;
+	buf.mtype = atoi(argv[1]);
+	strcpy(buf.mtext, argv[2]);
+	msgsnd(msqid, &buf, strlen(buf.mtext), 0);
+	return 0;
+}

@@ -1,0 +1,208 @@
+    1  ls
+    2  sudo cd /
+    3  su
+    4  su root
+    5  su
+    6  passwd root
+    7  su
+    8  cd ~
+    9  ls
+   10  ls -a
+   11  ifconfig
+   12  sudo apt install net-tools
+   13  ping www.baidu.com
+   14  sudo apt install ssh
+   15  ips -elf|grep ssh
+   16  ps -elf|grep ssh
+   17  sudo apt install vim
+   18  vim
+   19  ls
+   20  cd ..
+   21  ls
+   22  ls -s
+   23  ls -a
+   24  sudo passwd root
+   25  su
+   26  sudo passwd root
+   27  su
+   28  cd /home
+   29  ls
+   30  cd chenlei
+   31  su admin
+   32  ifconfig
+   33  sudo apt install net-tools
+   34  ifconfig
+   35  whois
+   36  sudo apt install whois
+   37  ping www.baidu.com
+   38  ls -a
+   39  ls -a /root/homt
+   40  ls -a /root/home
+   41  ifconfig
+   42  ifconfig
+   43  ps -elf|grep ssh
+   44  clear
+   45  ls /home
+   46  cat /dev/passwd
+   47  cat /etc/passwd
+   48  cd /home
+   49  ls
+   50  sudo userdel -r admin
+   51  ls /home
+   52  ls
+   53  cd chenlei
+   54  pwd
+   55  ls
+   56  clear
+   57  ls /home
+   58  su
+   59  exit
+   60  ls
+   61  s
+   62  ls -lh
+   63  ls -l
+   64  sudo passwd root
+   65  pwd
+   66  cd /
+   67  ls
+   68  ls -lh
+   69  man ls
+   70  cd -
+   71  ls
+   72  cd Public
+   73  ls
+   74  cd ~
+   75  cd Public
+   76  cd
+   77  pwd
+   78  ls
+   79  mkdir test
+   80  ls
+   81  rmdir test
+   82  ls
+   83  mkdir test1
+   84  ls
+   85  mkdir test2
+   86  ls
+   87  cd Pictures
+   88  ls
+   89  cd
+   90  ls ./Documents
+   91  ls
+   92  mkdir /test1/main
+   93  mkdir ~/test1/main
+   94  ls ~/test1
+   95  cp -r ./test1 ./test2
+   96  ls ./test2
+   97  mv ./test1 ./test3
+   98  ls
+   99  ls ./test3
+  100  mv ./test2 ./test3/
+  101  ls
+  102  cd test3
+  103  ls
+  104  cd test2
+  105  ls
+  106  cd ~
+  107  rm -r ./test3/test2
+  108  ls ./test3
+  109  man tree
+  110  tree
+  111  sudo apt install tree
+  112  tree
+  113  tree /
+  114  ifconfig
+  115  sudo userdel -r admin
+  116  ls -lh /home
+  117  cd ~
+  118  ls
+  119  ls -lh
+  120  ls -lha
+  121  pwd
+  122  ls
+  123  cd Day1
+  124  cd day1
+  125  ls
+  126  mkdir newdir
+  127  ls
+  128  rmdir newdir
+  129  ls
+  130  mkdir newdir
+  131  cp main.c newdir
+  132  ls
+  133  ls -lh newdir
+  134  cat newdir/main.c 
+  135  ls
+  136  cat newdir/main.c >test.c
+  137  cat test.c
+  138  echo hi, my name is chenlei. I'm 22 years old. >newdir/main.c
+j
+newdir/c
+  139  ls
+  140  cd newdir
+  141  ls
+  142  cat main.c
+  143  echo hi,my name is chenlei. >main.c
+  144  cat main.c
+  145  cp ../main.c main.c
+  146  cat main.c
+  147  cd ..
+  148  ls
+  149  ls -lh
+  150  cd newdir ls
+  151  cd newdir
+  152  ls -lh
+  153  echo hi,I'm 22 years old. >main.c
+  154  cat main.c
+  155  echo Hi,I'm 22 years old. >main.c
+
+  156  cat main.c
+  157  ls -lh
+  158  echo hi
+  159  man >
+  160  cat main.c
+  161  echo Hi,I'm 22 years old. >main.c
+  162  cat main.c
+  163  echo hi,my name is chenlei. >main.c
+  164  echo Hi,I'm 22 years old. >main.c
+  165  echo Hi,Im 22 years old. >main.c
+  166  echo sds''ds'ds >main.c
+  167  cat
+  168  ls
+  169  cd ..
+  170  ls
+  171  rm -rf newdir
+  172  ls
+  173  tree ~
+  174  tree ~ -h
+  175  ls
+  176  mkdir newdir
+  177  mv test.c newdir
+  178  ls
+  179  ls -lh
+  180  chmod u -r main.c
+  181  chmod chenlei -r main.c
+  182  chmod chelei-r main.c
+  183  chmod u-r main.c
+  184  ls -lh
+  185  chmod u+x main.c
+  186  ls -lh
+  187  chmod u+r, o+r main.c
+  188  chmod u+r,o+r main.c
+  189  ls -lh
+  190  chmod g+rx,o-r main.c
+  191  ls -lh
+  192  chmod u-rwx,g-rwx,o+rwx main.c
+  193  ls -lh
+  194  chmod u+rwx,g+rx,o-rwx main.c
+  195  ls -lh
+  196  chmod ugo-x main.c
+  197  ls -lh
+  198  chmod ugo+rwx main.c
+  199  ls -lh
+  200  chmod 000 main.c
+  201  ls -lh
+  202  chmod 750 main.c
+  203  ls -lh
+  204  history
+  205  history >day1_陈雷.txt
